@@ -14,6 +14,7 @@ p {
   max-width: 500px;
 }
 
+/*** Design of fizz, buzz, and fizzbuzz blocks to be outputted **/
 .fizz-buzz-item {
   display: block;
   float: left;
@@ -30,10 +31,12 @@ p {
   line-height: 80px;
 }
 
-.fizz, .fizzbuzz {
+.fizz,
+.fizzbuzz {
   border: 4px solid green;
 }
 
-.buzz, .fizzbuzz {
+.buzz,
+.fizzbuzz {
   background-color: #D5F5E3;
 }
